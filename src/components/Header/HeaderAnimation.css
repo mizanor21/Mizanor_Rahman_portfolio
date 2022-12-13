@@ -1,0 +1,54 @@
+.leftRightAnimation {
+    position: relative;
+    animation-name: leftRight;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftRight {
+    0% {
+        /* background-color: red; */
+        left: 45%;
+        top: -750px;
+    }
+
+    25% {
+        /* background-color: yellow; */
+        left: 50%;
+        top: -750px;
+    }
+
+    /* 50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;} */
+    100% {
+        /* background-color: red; */
+        left: 45%;
+        top: -750px;
+    }
+}
+
+.upDownAnimation {
+    position: relative;
+    animation-name: upDown;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes upDown {
+
+    /* top-[-650px] left-[85%] */
+    0% {
+        left: 85%;
+        top: -600px;
+    }
+
+    75% {
+        left: 85%;
+        top: -700px;
+    }
+
+    100% {
+        left: 85%;
+        top: -600px;
+    }
+}
