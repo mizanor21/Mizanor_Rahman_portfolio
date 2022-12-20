@@ -1,54 +1,143 @@
 .leftRightAnimation {
     position: relative;
-    animation-name: leftRight;
+    animation-name: leftRightJavascript;
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
-@keyframes leftRight {
+@keyframes leftRightJavascript {
     0% {
-        /* background-color: red; */
-        left: 45%;
-        top: -750px;
+        left: -0%;
+        top: -220px;
     }
 
     25% {
-        /* background-color: yellow; */
-        left: 50%;
-        top: -750px;
+        left: -5%;
+        top: -220px;
     }
 
-    /* 50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;} */
     100% {
-        /* background-color: red; */
-        left: 45%;
-        top: -750px;
+        left: -0%;
+        top: -220px;
     }
 }
 
 .upDownAnimation {
     position: relative;
-    animation-name: upDown;
+    animation-name: upDownFirebase;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 
-@keyframes upDown {
-
-    /* top-[-650px] left-[85%] */
+@keyframes upDownFirebase {
     0% {
-        left: 85%;
-        top: -600px;
+        left: 45%;
+        top: -300px;
     }
 
     75% {
-        left: 85%;
-        top: -700px;
+        left: 45%;
+        top: -400px;
     }
 
     100% {
-        left: 85%;
-        top: -600px;
+        left: 45%;
+        top: -300px;
+    }
+}
+
+.upDownAnimationReact {
+    position: relative;
+    animation-name: upDownReact;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes upDownReact {
+    0% {
+        left: 90%;
+        top: -150px;
+    }
+
+    25% {
+        left: 90%;
+        top: -200px;
+    }
+
+    100% {
+        left: 90%;
+        top: -150px;
+    }
+}
+
+.upDownAnimationMongoDB {
+    position: relative;
+    animation-name: upDownMongoDB;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes upDownMongoDB {
+    0% {
+        left: 30%;
+        top: -400px;
+    }
+
+    75% {
+        left: 30%;
+        top: -480px;
+    }
+
+    100% {
+        left: 30%;
+        top: -400px;
+    }
+}
+
+.leftRightAnimationNode {
+    position: relative;
+    animation-name: leftRightNode;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftRightNode {
+    0% {
+        left: 0%;
+        top: -650px;
+    }
+
+    25% {
+        left: 5%;
+        top: -650px;
+    }
+
+    100% {
+        left: 0%;
+        top: -650px;
+    }
+}
+
+.leftRightAnimationCSS {
+    position: relative;
+    animation-name: leftRightCSS;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftRightCSS {
+    0% {
+        left: 20%;
+        top: -550px;
+    }
+
+    25% {
+        left: 15%;
+        top: -550px;
+    }
+
+    100% {
+        left: 20%;
+        top: -550px;
     }
 }
